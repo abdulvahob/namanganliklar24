@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NAMANGANLIKLAR 24</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -13,13 +16,38 @@
 <body>
   <!-- Header start  -->
   <header class="site-header">
-    <div class="container site-header-top-container">
+    <div class="site-header-top">
+      <div class="container site-header-top-container">
 
-      <!-- Logo header -->
-      <a href="index.html" class="logo">
-        <img src="img/header-img/header-logo1x.png" alt="">
-      </a>
+        <!-- Logo header -->
+        <a href="index.html" class="logo">
+          <img src="img/header-img/header-logo1x.png"
+            srcset="img/header-img/header-logo1x.png 1x , img/header-img/header-logo2x.png 2x" alt="">
+        </a>
 
+        <!-- Currency rates -->
+        <ul class="currency-rates">
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">$</b>
+            <span class="currenty-rates-value">1,140</span>
+          </li>
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">P</b>
+            <span class="currenty-rates-value">146</span>
+          </li>
+        </ul>
+
+        <!-- Lang toggle -->
+
+        <div class="lang-toggle">
+          <a href="index.html" class="lang-toggle-link lang-toggle-link-active">Y3</a>
+          <a href="index.html/ru" class="lang-toggle-link">py</a>
+        </div>
+
+        <!-- site header auth -->
+        <a href="#" class="button button-primary">Войти</a>
+
+      </div>
     </div>
   </header>
 </body>
