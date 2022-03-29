@@ -20,20 +20,21 @@ img{
   height: auto;
 }
 .container{
-  border: 1px solid red;
   max-width: 1240px;
   margin: 0 auto;
   padding-right: 20px;
   padding-left: 20px;
 }
-
-/* -------- site header start  -------------- */
-.site-header {
-  border: 1px solid red;
+/* outline  */
+*:focus{
+  outline: 2px dashed #2959ce;
+  outline-offset: 3px ;
 }
 
+/* -------- site header start  -------------- */
+
+
 .site-header-top {
-  border: 1px solid red;
   background-color: #F6F6F6;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -41,7 +42,6 @@ img{
 }
 
 .site-header-top-container {
-  border: 1px solid red;
   display: flex;
   align-items: center;
 }
@@ -130,4 +130,71 @@ img{
 
 .button-primary:active{
   opacity: .6;
+}
+
+.global-search-form {
+  margin-right: 25px;
+}
+.global-search-form-input {
+  padding-left: 41px;
+  padding-top: 15px ;
+  padding-bottom: 13px;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  line-height: 17px;
+  text-align: left;
+  border-radius: 30px;
+  padding-right: 20px;
+}
+
+/* site navbar */
+
+.container {
+}
+.navbar {
+  border-bottom: 1px solid #D1D1D1;
+  padding-top: 26px;
+  padding-bottom: 16px;
+  margin-bottom: 40px;
+
+}
+.navbar-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navbar-item {
+  margin-right: 34px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.navbar-item-link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #7F7F7F;
+  transition: color .3s ease-out;
+}
+.navbar-item-link:hover{
+  color: #295091;
+}
+.navbar-item-link:active{
+  opacity: 0.8;
+}
+.site-banner{
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+.site-banner a{
+  display: flex;
+}
+
+.site-banner img{
+  object-fit: cover;
+  border-radius: 8px;
 }
