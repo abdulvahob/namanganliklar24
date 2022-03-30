@@ -206,6 +206,7 @@ img{
 .main-content{
   flex-grow: 1;
   padding-top: 50px;
+  margin-bottom: 100px;
 }
 
 
@@ -249,8 +250,8 @@ img{
   color: #2959ce;
 }
 .article-card-title:active a{
-  opacity: .8;
-  
+  opacity: .8 ;
+
 }
 .article-card-title a{
   text-decoration: none;
@@ -264,8 +265,7 @@ img{
   margin-bottom: 15px;
   margin-top: auto;
 }
-.article-card-title-link {
-}
+
 .article-card-footer {
   display: flex;
   align-items: center;
@@ -498,4 +498,116 @@ img{
 }
 .world-news-sidebar-content h3 a:hover{
   color: #2959ce;
+}
+
+/*  footer start */
+
+.footer{
+  background: #7297EF;
+  padding: 40px ;
+}
+
+.footer-container{
+  padding: 0 100px;
+}
+
+.site-footer-about-links{
+  display: flex;
+}
+.site-footer-logo-wrapper {
+  margin-bottom: 15px;
+}
+.site-footer-logo {
+  display: inline-block;
+}
+.site-footer-logo img{
+  display: flex;
+}
+
+.site-footer-about-links {
+  padding: 0;
+  margin-bottom: 30px;
+
+}
+.site-footer-about {
+  max-width: 230px;
+  margin-right: 203px;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.site-footer-list {
+  list-style: none;
+}
+.site-footer-list li a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity .3s ease-out;
+}
+.site-footer-list li:hover a{
+  opacity: .8;
+}
+.site-footer-list li:active a{
+  opacity: .6;
+}
+.site-footer-list li:not(:last-child){
+  margin-bottom: 20px;
+}
+.site-footer-list:not(:last-child){
+  margin-right: 100px;
+}
+
+.footer-social{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-social-title {
+  max-width: 161px;
+  padding: 0;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  margin: 0;
+  color: #fff;
+}
+.footer-social-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-social-links li:not(:last-child){
+  margin-right: 25px;
+}
+
+.footer-social-links li a {
+  display: flex;
+  align-items: center;
+  transition: all .3s ease-out;
+}
+.footer-social-links li:hover a{
+  opacity: .8;
+}
+.footer-social-links li:hover a{
+  opacity: .6;
+}
+.footer-main-link{
+  margin-bottom: 20px;
+  height: 1px;
+  background-color: #CECECE;
+  border: none;
 }
