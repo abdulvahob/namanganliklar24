@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  transition: color .3s ease-out;
 }
 html{
   height: 100%;
