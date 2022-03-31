@@ -261,7 +261,7 @@ img {
 .article-card-sourse-time {
   display: flex;
 }
-.article-card-sourse-time span {
+.article-card-sourse-time span , .article-card-sourse-time time {
   margin-right: 10px;
   color: #5e5f61;
   font-size: 13px;
