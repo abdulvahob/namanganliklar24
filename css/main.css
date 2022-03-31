@@ -107,7 +107,10 @@ img {
   background-color: #fff;
   color: #000;
 }
+
+
 /* buttton primary */
+
 .button {
   font-weight: 500;
   line-height: 19px;
@@ -767,4 +770,9 @@ img {
   border-radius: 10px;
   margin-left: auto;
   display: block;
+}
+
+.main-content.main-content-contact{
+  padding-top: 0;
+  padding-bottom: 0;
 }
