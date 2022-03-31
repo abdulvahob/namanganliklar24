@@ -185,6 +185,7 @@ img {
   align-items: center;
   border-radius: 8px;
 }
+
 .site-banner a {
   display: flex;
 }
@@ -666,12 +667,8 @@ img {
 
 /* 4 peach start */
 
-.main-content{
-  padding-top: 0;
-}
 
-.contacts{
-}
+
 
 .contact-heading{
   padding: 0;
